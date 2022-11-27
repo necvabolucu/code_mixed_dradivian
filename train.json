@@ -1,0 +1,30 @@
+{"code": "bert",
+"train_file": "dataset/DravidianCodeMix/tamil_offensive_full_train.csv",
+"dev_file": "dataset/DravidianCodeMix/tamil_offensive_full_dev.csv",
+"test_file": "dataset/DravidianCodeMix/tamil_offensive_full_test.csv",
+"save_syntax_train_file": "tamil_train",
+"save_syntax_dev_file": "tamil_dev",
+"save_syntax_test_file": "tamil_test",
+"bert_model": "bert-base-multilingual-cased"
+"random_seed": 42,
+"dropout":0.1
+"learning_rate": 1e-5,
+"init_weight_decay": 0.1,
+"warmup_steps": 100,
+"num_workers": 2,
+"batch_size": 16,
+"max_length": 100,
+"epoch_size": 20,
+"patience_all": 10,
+"save_steps": 1000,
+"use_fp16": true,
+"do_whole_word_mask": true,
+"mlm_prob": 0.7,
+"per_device_train_batch_size": 8,
+"output_dir": "tamil_CPT",
+"output_dir_cont": "tamil_CPT_cont",
+"syntax_aware": false,
+"cache_dir": "checkpoint_kannada"
+}
+
+
