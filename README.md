@@ -28,7 +28,7 @@ Results on DravidianCodeMix dataset:
 | Cont-BERT        	| 0.75      	| 0.77   	| 0.76     	|
 | Cont-Syntax-BERT 	| 0.84      	| 0.76   	| 0.80     	|
 
-### Malayalam
+### Kannada
 
 | Model            	| Precision 	| Recall 	| F1-Score 	| 
 |------------------	|-----------	|--------	|----------	|
